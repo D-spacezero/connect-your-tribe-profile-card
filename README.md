@@ -17,7 +17,8 @@ Tijdens dit project gaan we even terug in de tijd. We pakken ons aller eerste pr
 Echter gaan we deze kwa functionaliteit in een nieuw jasje steken. Namelijk door de data die weergegeven word niet "hard" erin te coderen. Maar deze op te halen uit een database.
 
 <img width="1680" alt="Screenshot 2023-04-05 at 08 52 02" src="https://user-images.githubusercontent.com/112856412/230005420-571ce4f6-53fa-483d-97b7-f1404ba645d0.png">
-real-tan-hatchling-tie.cyclic.app
+
+Link naar live server: real-tan-hatchling-tie.cyclic.app
 
 ## Kenmerken
 Om dit project mogelijk te maken en de data op te halen haal ik binnnen de index.ejs met ESJ de data op. Dit ziet er zo uit:
