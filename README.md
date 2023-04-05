@@ -6,8 +6,6 @@
 
   * [Beschrijving](#beschrijving)
   * [Kenmerken](#kenmerken)
-  * [Installatie](#installatie)
-  * [Gebruik](#gebruik)
   * [Bronnen](#bronnen)
   * [Licentie](#licentie)
 
@@ -18,7 +16,7 @@ Echter gaan we deze kwa functionaliteit in een nieuw jasje steken. Namelijk door
 
 <img width="1680" alt="Screenshot 2023-04-05 at 08 52 02" src="https://user-images.githubusercontent.com/112856412/230005420-571ce4f6-53fa-483d-97b7-f1404ba645d0.png">
 
-Link naar live server: real-tan-hatchling-tie.cyclic.app
+Link naar live server: https://real-tan-hatchling-tie.cyclic.app
 
 ## Kenmerken
 Om dit project mogelijk te maken en de data op te halen haal ik binnnen de index.ejs met ESJ de data op. Dit ziet er zo uit:
@@ -51,11 +49,11 @@ Om dit project mogelijk te maken en de data op te halen haal ik binnnen de index
 
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
-## Installatie
-
-## Gebruik
-
 ## Bronnen
+
+Workshop van Justus
+
+Oude visite kaartje: https://github.com/D-spacezero/your-tribe-css-basics
 
 ## Licentie
 
