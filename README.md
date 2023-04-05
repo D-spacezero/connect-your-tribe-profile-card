@@ -22,12 +22,12 @@ real-tan-hatchling-tie.cyclic.app
 ## Kenmerken
 Om dit project mogelijk te maken en de data op te halen haal ik binnnen de index.ejs met ESJ de data op. Dit ziet er zo uit:
 
-```
+```html:
 <div style="background-color:white !important;">
       <img class="liquid" src="./media/liquid-gradient.jpg" alt="liquid">
       <h2 class="vertical-text">SWIPE >>>>>></h2>
+      <!--- Haal de "name" en "surname" op uit de database --->
       <h1 class="name-box"><%= member.name %> <br> <%= member.surname %> </h1>
-      <!--<h3 class="swipe"> >>>> </h3>-->
     </div>
   
     <div class="quality-box quality-box-transition">
@@ -40,6 +40,7 @@ Om dit project mogelijk te maken en de data op te halen haal ik binnnen de index
           <li>Prepared</li>
         </ul>
       <h2 class="aboutme">About me</h2>
+        <!--- Haal de "bio" op uit de database --->
         <p><%= member.bio.html %></p>
       </div>
     </div>
