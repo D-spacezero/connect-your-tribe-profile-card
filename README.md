@@ -22,7 +22,29 @@ real-tan-hatchling-tie.cyclic.app
 ## Kenmerken
 Om dit project mogelijk te maken en de data op te halen haal ik binnnen de index.ejs met ESJ de data op. Dit ziet er zo uit:
 
-<img width="567" alt="Screenshot 2023-04-05 at 09 01 51" src="https://user-images.githubusercontent.com/112856412/230005354-dae87c4d-2ae4-4e23-96bd-eef0a6fdd654.png">
+```
+<div style="background-color:white !important;">
+      <img class="liquid" src="./media/liquid-gradient.jpg" alt="liquid">
+      <h2 class="vertical-text">SWIPE >>>>>></h2>
+      <h1 class="name-box"><%= member.name %> <br> <%= member.surname %> </h1>
+      <!--<h3 class="swipe"> >>>> </h3>-->
+    </div>
+  
+    <div class="quality-box quality-box-transition">
+      <div class="fade fade-trasistion">
+        <h1 class="qualities">Qualities</h1>
+        <ul class="list">
+          <li>Creative</li>
+          <li>Resolving</li>
+          <li>Innovative</li>
+          <li>Prepared</li>
+        </ul>
+      <h2 class="aboutme">About me</h2>
+        <p><%= member.bio.html %></p>
+      </div>
+    </div>
+```
+
 
 
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
